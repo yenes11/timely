@@ -1,59 +1,111 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { FlatList, Keyboard, StyleSheet, View } from "react-native";
 
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import ThemedButton from "@/components/ThemedButton";
+import ListItem from "@/components/ListItem";
+import { ThemedText } from "@/components/ThemedText";
+import StatusCard from "@/components/StatusCard";
+import { ThemedView } from "@/components/ThemedView";
+import { FontAwesome, Ionicons } from "@expo/vector-icons";
+import Badge from "@/components/Badge";
+import { HelloWave } from "@/components/HelloWave";
+import Icon from "@/components/Icon";
+import useColor from "@/hooks/useColor";
+import { useNavigation, useRouter } from "expo-router";
+import {
+  BottomSheetModal,
+  BottomSheetView,
+  BottomSheetModalProvider,
+  BottomSheetBackdrop,
+  BottomSheetTextInput,
+  TouchableWithoutFeedback,
+} from "@gorhom/bottom-sheet";
+import { useCallback, useMemo, useRef, useState } from "react";
+import { useSharedValue } from "react-native-reanimated";
+import ThemeToggle from "@/components/ThemeToggle";
+import AnimatedTextInput from "@/components/AnimatedTextInput";
+import AddSessionSheet from "@/components/AddSessionSheet";
+import NumberPicker from "@/components/MinuteSelect";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function HomeScreen() {
+  const color = useColor();
+  const navigation = useNavigation();
+  const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const bottomSheetModalRef = useRef<BottomSheetModal>(null);
+
+  // callbacks
+  const handlePresentModalPress = useCallback(() => {
+    bottomSheetModalRef.current?.present();
+  }, []);
+
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
+    <View
+      style={{
+        flex: 1,
+        paddingHorizontal: 16,
+        gap: 16,
+        paddingTop: insets.top + 16,
+        paddingBottom: insets.bottom + 16,
+      }}
+    >
+      <ThemedView
+        row
+        style={{ justifyContent: "space-between", alignItems: "center" }}
+      >
+        <ThemedText style={{ fontSize: 32, fontFamily: "SF_Bold" }}>
+          Hello, Enes <HelloWave />
+        </ThemedText>
+        <ThemeToggle />
+      </ThemedView>
+      <ThemedView style={{ flexDirection: "row", gap: 6 }}>
+        <StatusCard
+          // bgColor="#B9F3FC"
+          bgColor={color.yellow}
+          title="Remaining Focus"
+          stat="6"
+          desc="hours"
         />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
+        <StatusCard
+          bgColor={color.pink}
+          title="Total Focus"
+          stat="38"
+          desc="hours"
+        />
       </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-        <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
+
+      <ThemedText type="subtitle">Sessions</ThemedText>
+      <View style={{ flexDirection: "row", gap: 8 }}>
+        <ThemedButton
+          onPress={handlePresentModalPress}
+          icon={<Icon icon="calendar-add" size={20} color={color.background} />}
+          block
+          style={{ borderRadius: 16, backgroundColor: color.blue }}
+          title="Add Session"
+        />
+        <ThemedButton
+          icon={<Icon icon="timer" size={18} color={color.background} />}
+          block
+          onPress={() => router.navigate("/add-session")}
+          style={{ borderRadius: 16 }}
+          title="Start Session"
+        />
+      </View>
+      <FlatList
+        data={[1, 2, 3]}
+        style={{ marginHorizontal: -16 }}
+        contentContainerStyle={{ gap: 8 }}
+        renderItem={() => <ListItem />}
+      />
+      <AddSessionSheet ref={bottomSheetModalRef} />
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     gap: 8,
   },
   stepContainer: {
@@ -65,6 +117,6 @@ const styles = StyleSheet.create({
     width: 290,
     bottom: 0,
     left: 0,
-    position: 'absolute',
+    position: "absolute",
   },
 });
