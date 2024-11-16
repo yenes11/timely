@@ -1,60 +1,49 @@
-import { Text, type TextProps, StyleSheet } from 'react-native';
+import { Colors } from "@/constants/Colors";
+import useColor from "@/hooks/useColor";
+import { StyleSheet, Text, TextProps } from "react-native";
 
-import { useThemeColor } from '@/hooks/useThemeColor';
+interface Props extends TextProps {
+  type?: "default" | "defaultSemiBold" | "title" | "subtitle" | "link";
+  color?: "light" | "dark";
+}
 
-export type ThemedTextProps = TextProps & {
-  lightColor?: string;
-  darkColor?: string;
-  type?: 'default' | 'title' | 'defaultSemiBold' | 'subtitle' | 'link';
-};
+export function ThemedText({ style, color, type = "default", ...rest }: Props) {
+  const themeColor = useColor();
+  const _style = styles[type];
+  const _color =
+    color === "light"
+      ? Colors.dark.text
+      : color === "dark"
+      ? Colors.light.text
+      : themeColor.text;
 
-export function ThemedText({
-  style,
-  lightColor,
-  darkColor,
-  type = 'default',
-  ...rest
-}: ThemedTextProps) {
-  const color = useThemeColor({ light: lightColor, dark: darkColor }, 'text');
-
-  return (
-    <Text
-      style={[
-        { color },
-        type === 'default' ? styles.default : undefined,
-        type === 'title' ? styles.title : undefined,
-        type === 'defaultSemiBold' ? styles.defaultSemiBold : undefined,
-        type === 'subtitle' ? styles.subtitle : undefined,
-        type === 'link' ? styles.link : undefined,
-        style,
-      ]}
-      {...rest}
-    />
-  );
+  return <Text style={[_style, { color: _color }, style]} {...rest} />;
 }
 
 const styles = StyleSheet.create({
   default: {
     fontSize: 16,
-    lineHeight: 24,
+    // lineHeight: 24,
+    fontFamily: "SF_Medium",
   },
   defaultSemiBold: {
     fontSize: 16,
-    lineHeight: 24,
-    fontWeight: '600',
+    // lineHeight: 24,
+    fontFamily: "SF_Semibold",
   },
   title: {
     fontSize: 32,
-    fontWeight: 'bold',
-    lineHeight: 32,
+    fontFamily: "SF_Black",
+    // lineHeight: 32,
   },
   subtitle: {
     fontSize: 20,
-    fontWeight: 'bold',
+    fontFamily: "SF_Bold",
   },
   link: {
-    lineHeight: 30,
+    // lineHeight: 30,
     fontSize: 16,
-    color: '#0a7ea4',
+    fontFamily: "SF_Medium",
+    color: "#0a7ea4",
   },
 });

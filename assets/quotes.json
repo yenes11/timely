@@ -1,0 +1,748 @@
+[
+  {
+    "text": "Today is a new opportunity to achieve your goals.",
+    "author": "InspireDaily"
+  },
+  {
+    "text": "Every small step brings you closer to success.",
+    "author": "MotivateMe"
+  },
+  {
+    "text": "Consistency is the key to unlocking your potential.",
+    "author": "FocusFuel"
+  },
+  { "text": "Stay focused; great things take time.", "author": "SuccessSeeds" },
+  {
+    "text": "Your dedication today shapes your tomorrow.",
+    "author": "FutureBuild"
+  },
+  {
+    "text": "Progress over perfection—keep moving forward.",
+    "author": "GrowthMindset"
+  },
+  {
+    "text": "Discipline bridges goals and accomplishments.",
+    "author": "AchievementHub"
+  },
+  {
+    "text": "Believe in yourself and all that you are.",
+    "author": "SelfBelief"
+  },
+  { "text": "Turn challenges into stepping stones.", "author": "PositivePath" },
+  { "text": "Your hard work will pay off in time.", "author": "EffortEcho" },
+  { "text": "Stay committed to your journey.", "author": "JourneyJot" },
+  { "text": "Each task completed is a step ahead.", "author": "TaskMaster" },
+  {
+    "text": "Embrace the process, not just the outcome.",
+    "author": "ProcessPro"
+  },
+  {
+    "text": "Small efforts accumulate to big results.",
+    "author": "Accumulation"
+  },
+  {
+    "text": "Focus is the art of knowing what to ignore.",
+    "author": "FocusArt"
+  },
+  { "text": "Set your goals high and don't stop.", "author": "AimHigh" },
+  {
+    "text": "Distractions are the enemy of productivity.",
+    "author": "StaySharp"
+  },
+  { "text": "Your time is valuable—use it wisely.", "author": "TimeKeeper" },
+  { "text": "Dedicate time to what truly matters.", "author": "PriorityPulse" },
+  { "text": "Overcome procrastination with action.", "author": "ActionAhead" },
+  {
+    "text": "The journey of a thousand miles begins with one step.",
+    "author": "JourneyStart"
+  },
+  { "text": "Your focus determines your reality.", "author": "RealityFocus" },
+  { "text": "Effort is the path to mastery.", "author": "MasteryMind" },
+  { "text": "Push yourself, because no one else will.", "author": "SelfPush" },
+  { "text": "Every moment is a fresh beginning.", "author": "FreshStart" },
+  { "text": "Your work ethic defines your future.", "author": "EthicEdge" },
+  { "text": "Stay patient and trust your journey.", "author": "TrustJourney" },
+  { "text": "Great achievements require time.", "author": "TimeAchieve" },
+  {
+    "text": "Motivation gets you started; habit keeps you going.",
+    "author": "HabitHold"
+  },
+  {
+    "text": "The secret of getting ahead is getting started.",
+    "author": "StartNow"
+  },
+  { "text": "Make each day your masterpiece.", "author": "DailyMasterpiece" },
+  {
+    "text": "Don't watch the clock; do what it does—keep going.",
+    "author": "KeepGoing"
+  },
+  {
+    "text": "Focus on your goal. Don't look in any direction but ahead.",
+    "author": "GoalGlance"
+  },
+  { "text": "Your only limit is you.", "author": "LimitlessYou" },
+  { "text": "Dream big and dare to fail.", "author": "DreamDare" },
+  {
+    "text": "Hard work beats talent when talent doesn't work hard.",
+    "author": "WorkWins"
+  },
+  {
+    "text": "Push harder than yesterday if you want a different tomorrow.",
+    "author": "PushForward"
+  },
+  {
+    "text": "Success is the sum of small efforts repeated daily.",
+    "author": "DailySum"
+  },
+  {
+    "text": "Don't stop when you're tired; stop when you're done.",
+    "author": "FinishLine"
+  },
+  {
+    "text": "The future depends on what you do today.",
+    "author": "TodayMatters"
+  },
+  {
+    "text": "The harder you work for something, the greater you'll feel when you achieve it.",
+    "author": "WorkWorth"
+  },
+  {
+    "text": "Wake up with determination; go to bed with satisfaction.",
+    "author": "DailyCycle"
+  },
+  {
+    "text": "Do something today that your future self will thank you for.",
+    "author": "FutureThanks"
+  },
+  {
+    "text": "Little by little, a little becomes a lot.",
+    "author": "IncrementalGain"
+  },
+  {
+    "text": "Don't limit your challenges; challenge your limits.",
+    "author": "ChallengeUp"
+  },
+  {
+    "text": "Believe you can, and you're halfway there.",
+    "author": "BelieveBegin"
+  },
+  {
+    "text": "Success doesn't come to you; you go to it.",
+    "author": "SuccessSeek"
+  },
+  {
+    "text": "Perseverance is the hard work you do after you get tired of doing the hard work you already did.",
+    "author": "Persevere"
+  },
+  { "text": "Success is not for the lazy.", "author": "ActiveAchieve" },
+  { "text": "Your dreams don't work unless you do.", "author": "DreamWork" },
+  {
+    "text": "Great things never come from comfort zones.",
+    "author": "ComfortChallenge"
+  },
+  {
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "GoalFocus"
+  },
+  { "text": "Don't call it a dream; call it a plan.", "author": "PlanAct" },
+  {
+    "text": "The only bad workout is the one that didn't happen.",
+    "author": "WorkoutWisdom"
+  },
+  {
+    "text": "If it doesn't challenge you, it won't change you.",
+    "author": "ChangeChallenge"
+  },
+  {
+    "text": "Success is what comes after you stop making excuses.",
+    "author": "NoExcuses"
+  },
+  { "text": "Don't wish for it; work for it.", "author": "WorkWish" },
+  {
+    "text": "Your energy introduces you before you even speak.",
+    "author": "EnergyEcho"
+  },
+  {
+    "text": "The pain you feel today will be the strength you feel tomorrow.",
+    "author": "PainStrength"
+  },
+  {
+    "text": "Discipline is choosing between what you want now and what you want most.",
+    "author": "DisciplineChoice"
+  },
+  {
+    "text": "The difference between ordinary and extraordinary is that little extra.",
+    "author": "ExtraMile"
+  },
+  {
+    "text": "Success is not in what you have, but who you are.",
+    "author": "SuccessSelf"
+  },
+  {
+    "text": "To change your life, you need to change your priorities.",
+    "author": "PriorityPivot"
+  },
+  { "text": "Believe in the power of yet.", "author": "PowerOfYet" },
+  { "text": "Effort today improves tomorrow.", "author": "EffortImpact" },
+  {
+    "text": "Persistence guarantees that results are inevitable.",
+    "author": "PersistResult"
+  },
+  {
+    "text": "Don't wait for opportunity; create it.",
+    "author": "CreateOpportunity"
+  },
+  {
+    "text": "Motivation is what gets you started; habit is what keeps you going.",
+    "author": "HabitHold"
+  },
+  {
+    "text": "Success usually comes to those too busy to be looking for it.",
+    "author": "BusySuccess"
+  },
+  {
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "SelfMotivate"
+  },
+  {
+    "text": "It's going to be hard, but hard does not mean impossible.",
+    "author": "HardPossible"
+  },
+  {
+    "text": "Sometimes later becomes never. Do it now.",
+    "author": "NowNotLater"
+  },
+  { "text": "Don't stop until you're proud.", "author": "ProudFinish" },
+  {
+    "text": "Success is the by-product of your dedication.",
+    "author": "DedicationDrive"
+  },
+  {
+    "text": "Keep your eyes on the stars and your feet on the ground.",
+    "author": "StarsGround"
+  },
+  {
+    "text": "Start where you are. Use what you have. Do what you can.",
+    "author": "StartNow"
+  },
+  { "text": "If you can dream it, you can do it.", "author": "DreamDo" },
+  { "text": "Quality is not an act; it is a habit.", "author": "QualityHabit" },
+  {
+    "text": "Action is the foundational key to all success.",
+    "author": "ActionKey"
+  },
+  {
+    "text": "Focus on the step in front of you, not the whole staircase.",
+    "author": "StepFocus"
+  },
+  { "text": "Your time is limited; don't waste it.", "author": "TimeValue" },
+  {
+    "text": "Work hard in silence; let success make the noise.",
+    "author": "SilentSuccess"
+  },
+  {
+    "text": "Don't downgrade your dream just to fit your reality.",
+    "author": "DreamFit"
+  },
+  {
+    "text": "Success doesn't just find you; you have to go out and get it.",
+    "author": "GetSuccess"
+  },
+  {
+    "text": "The way to get started is to quit talking and begin doing.",
+    "author": "StartDoing"
+  },
+  { "text": "Dream it. Believe it. Build it.", "author": "BuildDream" },
+  {
+    "text": "Success is not overnight; it's when every day you get a little better.",
+    "author": "DailyBetter"
+  },
+  {
+    "text": "Your mindset determines your future.",
+    "author": "MindsetMatters"
+  },
+  {
+    "text": "Efforts and courage are not enough without purpose and direction.",
+    "author": "PurposePath"
+  },
+  {
+    "text": "Stay positive; work hard; make it happen.",
+    "author": "PositiveAction"
+  },
+  { "text": "Your life is as good as your mindset.", "author": "LifeMindset" },
+  { "text": "Don't limit yourself.", "author": "Limitless" },
+  { "text": "Be unstoppable.", "author": "Unstoppable" },
+  { "text": "Do it with passion or not at all.", "author": "PassionDrive" },
+  {
+    "text": "Success is a journey, not a destination.",
+    "author": "JourneySuccess"
+  },
+  {
+    "text": "The best way to predict the future is to create it.",
+    "author": "CreateFuture"
+  },
+  {
+    "text": "Don't watch the clock; do what it does—keep moving.",
+    "author": "ClockMove"
+  },
+  { "text": "Stay humble. Work hard. Be kind.", "author": "HumbleWork" },
+  {
+    "text": "Focus on being productive, not busy.",
+    "author": "ProductiveFocus"
+  },
+  {
+    "text": "Set goals that scare you and excite you at the same time.",
+    "author": "GoalSet"
+  },
+  {
+    "text": "Failure is not the opposite of success; it's part of success.",
+    "author": "FailurePart"
+  },
+  {
+    "text": "Don't be afraid to give up the good to go for the great.",
+    "author": "GoodToGreat"
+  },
+  { "text": "Aim for progress, not perfection.", "author": "ProgressAim" },
+  {
+    "text": "Your limitation—it's only your imagination.",
+    "author": "LimitImagined"
+  },
+  { "text": "Great acts are made up of small deeds.", "author": "SmallDeeds" },
+  {
+    "text": "The expert in anything was once a beginner.",
+    "author": "ExpertBeginner"
+  },
+  {
+    "text": "Don't count the days; make the days count.",
+    "author": "DaysCount"
+  },
+  {
+    "text": "Your passion is waiting for your courage to catch up.",
+    "author": "PassionCourage"
+  },
+  {
+    "text": "Believe in your infinite potential.",
+    "author": "InfinitePotential"
+  },
+  { "text": "Make it happen. Shock everyone.", "author": "ShockSuccess" },
+  { "text": "Success is a series of small wins.", "author": "SmallWins" },
+  {
+    "text": "The only way to do great work is to love what you do.",
+    "author": "LoveWork"
+  },
+  { "text": "You are capable of amazing things.", "author": "AmazingYou" },
+  {
+    "text": "Stop doubting yourself; work hard and make it happen.",
+    "author": "NoDoubt"
+  },
+  {
+    "text": "Success starts with self-discipline.",
+    "author": "DisciplineStart"
+  },
+  {
+    "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
+    "author": "HardshipDestiny"
+  },
+  { "text": "Stay focused and never give up.", "author": "FocusNeverQuit" },
+  {
+    "text": "Success is not final; failure is not fatal.",
+    "author": "SuccessFailure"
+  },
+  {
+    "text": "Wake up with determination; go to bed with satisfaction.",
+    "author": "DeterminedSatisfaction"
+  },
+  {
+    "text": "Strive for progress, not perfection.",
+    "author": "StriveProgress"
+  },
+  {
+    "text": "Your attitude determines your direction.",
+    "author": "AttitudeDirection"
+  },
+  {
+    "text": "The harder the struggle, the more glorious the triumph.",
+    "author": "StruggleTriumph"
+  },
+  {
+    "text": "Work until your idols become your rivals.",
+    "author": "IdolsRivals"
+  },
+  {
+    "text": "Don't stop when you're tired; stop when you're done.",
+    "author": "TiredDone"
+  },
+  { "text": "Success is the best revenge.", "author": "SuccessRevenge" },
+  {
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "author": "DisciplineBridge"
+  },
+  {
+    "text": "Don't let yesterday take up too much of today.",
+    "author": "YesterdayToday"
+  },
+  {
+    "text": "Success is liking yourself, what you do, and how you do it.",
+    "author": "LikeSuccess"
+  },
+  {
+    "text": "Keep going; your hardest times often lead to the greatest moments.",
+    "author": "HardTimesGreat"
+  },
+  {
+    "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "author": "BecomeAchieve"
+  },
+  { "text": "Dream bigger. Do bigger.", "author": "DreamDoBig" },
+  {
+    "text": "Opportunities don't happen; you create them.",
+    "author": "CreateOpportunities"
+  },
+  {
+    "text": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "EnthusiasmWalk"
+  },
+  {
+    "text": "If you want to achieve greatness, stop asking for permission.",
+    "author": "GreatnessAchieve"
+  },
+  {
+    "text": "Do something today that your future self will thank you for.",
+    "author": "FutureThank"
+  },
+  { "text": "Little things make big days.", "author": "LittleBig" },
+  {
+    "text": "Don't wait for opportunity; create it.",
+    "author": "OpportunityCreate"
+  },
+  {
+    "text": "Sometimes we're tested not to show our weaknesses, but to discover our strengths.",
+    "author": "DiscoverStrength"
+  },
+  {
+    "text": "Don't decrease the goal. Increase the effort.",
+    "author": "EffortIncrease"
+  },
+  {
+    "text": "If the plan doesn't work, change the plan but never the goal.",
+    "author": "PlanChange"
+  },
+  {
+    "text": "Failure is the condiment that gives success its flavor.",
+    "author": "FlavorFailure"
+  },
+  {
+    "text": "The struggle you're in today is developing the strength you need for tomorrow.",
+    "author": "StruggleStrength"
+  },
+  {
+    "text": "You don't have to be great to start, but you have to start to be great.",
+    "author": "StartGreat"
+  },
+  {
+    "text": "Courage doesn't always roar. Sometimes it's the quiet voice at the end of the day saying, 'I will try again tomorrow.'",
+    "author": "QuietCourage"
+  },
+  {
+    "text": "Believe in yourself, take on your challenges, and dig deep.",
+    "author": "BelieveDig"
+  },
+  { "text": "Success is not for the lazy.", "author": "NoLazy" },
+  {
+    "text": "Don't wait for the right opportunity; create it.",
+    "author": "OpportunityMake"
+  },
+  { "text": "Be so good they can't ignore you.", "author": "GoodNotice" },
+  {
+    "text": "Success is the sum of small efforts, repeated day in and day out.",
+    "author": "SumEfforts"
+  },
+  { "text": "Your only limit is you.", "author": "YouLimit" },
+  {
+    "text": "Don't let what you cannot do interfere with what you can do.",
+    "author": "CanDo"
+  },
+  {
+    "text": "It's not about perfect. It's about effort.",
+    "author": "EffortOverPerfect"
+  },
+  {
+    "text": "The difference between who you are and who you want to be is what you do.",
+    "author": "DoDifference"
+  },
+  {
+    "text": "You don't get what you wish for; you get what you work for.",
+    "author": "WorkWish"
+  },
+  { "text": "Dreams don't work unless you do.", "author": "DreamsWork" },
+  {
+    "text": "Success isn't just about what you accomplish in your life; it's about what you inspire others to do.",
+    "author": "InspireSuccess"
+  },
+  {
+    "text": "Don't aspire to be the best on the team; aspire to be the best for the team.",
+    "author": "TeamBest"
+  },
+  {
+    "text": "The only place where success comes before work is in the dictionary.",
+    "author": "DictionarySuccess"
+  },
+  { "text": "A goal without a plan is just a wish.", "author": "GoalPlan" },
+  {
+    "text": "Success is not how high you have climbed, but how you make a positive difference.",
+    "author": "PositiveDifference"
+  },
+  {
+    "text": "Believe in yourself and all that you are.",
+    "author": "BelieveSelf"
+  },
+  { "text": "Don't stop until you're proud.", "author": "Proud" },
+  {
+    "text": "The secret to getting ahead is getting started.",
+    "author": "GetStarted"
+  },
+  {
+    "text": "If you get tired, learn to rest, not quit.",
+    "author": "RestNotQuit"
+  },
+  {
+    "text": "Success is the sum of small efforts, day in and day out.",
+    "author": "DailyEffort"
+  },
+  {
+    "text": "Your life does not get better by chance; it gets better by change.",
+    "author": "ChangeLife"
+  },
+  {
+    "text": "If opportunity doesn't knock, build a door.",
+    "author": "BuildDoor"
+  },
+  {
+    "text": "Setting goals is the first step in turning the invisible into the visible.",
+    "author": "GoalsFirstStep"
+  },
+  {
+    "text": "You are never too old to set another goal or to dream a new dream.",
+    "author": "NewDream"
+  },
+  {
+    "text": "Hard work beats talent when talent doesn't work hard.",
+    "author": "WorkHard"
+  },
+  {
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "FutureDreams"
+  },
+  {
+    "text": "Do not wait to strike till the iron is hot; but make it hot by striking.",
+    "author": "StrikeNow"
+  },
+  {
+    "text": "Great things are done by a series of small things brought together.",
+    "author": "SmallThings"
+  },
+  {
+    "text": "Start where you are. Use what you have. Do what you can.",
+    "author": "DoWhatYouCan"
+  },
+  {
+    "text": "You just can't beat the person who never gives up.",
+    "author": "NeverGiveUp"
+  },
+  {
+    "text": "Our greatest weakness lies in giving up.",
+    "author": "WeaknessGivingUp"
+  },
+  {
+    "text": "The way to get started is to quit talking and begin doing.",
+    "author": "BeginDoing"
+  },
+  {
+    "text": "Set your goals high, and don't stop till you get there.",
+    "author": "SetHighGoals"
+  },
+  {
+    "text": "Success seems to be connected with action. Successful people keep moving.",
+    "author": "KeepMoving"
+  },
+  {
+    "text": "What seems impossible today will one day become your warm-up.",
+    "author": "ImpossiblePossible"
+  },
+  {
+    "text": "Don't limit your challenges; challenge your limits.",
+    "author": "ChallengeLimits"
+  },
+  {
+    "text": "Success is a state of mind. If you want success, start thinking of yourself as a success.",
+    "author": "SuccessMindset"
+  },
+  {
+    "text": "Your success will be determined by your own confidence and fortitude.",
+    "author": "ConfidenceSuccess"
+  },
+  {
+    "text": "Motivation is what gets you started. Habit is what keeps you going.",
+    "author": "MotivationHabit"
+  },
+  { "text": "Keep pushing forward.", "author": "PushForward" },
+  {
+    "text": "You have to be at your strongest when you're feeling at your weakest.",
+    "author": "StrongWeak"
+  },
+  {
+    "text": "Don't wish it were easier; wish you were better.",
+    "author": "BetterYou"
+  },
+  {
+    "text": "Work hard, stay consistent, and be patient.",
+    "author": "ConsistentPatience"
+  },
+  {
+    "text": "Your best teacher is your last mistake.",
+    "author": "MistakeTeacher"
+  },
+  { "text": "Failure is success in progress.", "author": "FailureSuccess" },
+  {
+    "text": "Don't let yesterday take up too much of today.",
+    "author": "YesterdayToday"
+  },
+  {
+    "text": "Don't be pushed around by the fears in your mind.",
+    "author": "NoFear"
+  },
+  { "text": "Hard work betrays none.", "author": "WorkBetray" },
+  { "text": "The best investment is in yourself.", "author": "InvestSelf" },
+  { "text": "Success isn't given; it's earned.", "author": "EarnedSuccess" },
+  { "text": "If you want it, work for it.", "author": "WantWork" },
+  {
+    "text": "The secret of success is to do the common thing uncommonly well.",
+    "author": "UncommonSuccess"
+  },
+  {
+    "text": "Stay positive, work hard, make it happen.",
+    "author": "PositiveMake"
+  },
+  { "text": "You are your only limit.", "author": "OnlyLimit" },
+  { "text": "Focus on your strengths.", "author": "StrengthFocus" },
+  {
+    "text": "No matter how hard it gets, keep going.",
+    "author": "KeepGoingHard"
+  },
+  {
+    "text": "Success is not built on success. It's built on failure.",
+    "author": "SuccessFailure"
+  },
+  {
+    "text": "Your greatest asset is your earning ability.",
+    "author": "EarningAbility"
+  },
+  { "text": "Keep your eyes on the goal.", "author": "EyesGoal" },
+  {
+    "text": "Work hard in silence; let your success make the noise.",
+    "author": "SuccessNoise"
+  },
+  { "text": "The harder you work, the luckier you get.", "author": "WorkLuck" },
+  { "text": "Don't stop until you're proud.", "author": "BeProud" },
+  { "text": "Success is not for the lazy.", "author": "ActiveSuccess" },
+  { "text": "Discipline equals freedom.", "author": "DisciplineFreedom" },
+  { "text": "Don't be busy; be productive.", "author": "ProductiveOverBusy" },
+  {
+    "text": "It's not about having time; it's about making time.",
+    "author": "MakeTime"
+  },
+  {
+    "text": "Success is 1% inspiration and 99% perspiration.",
+    "author": "InspirationPerspiration"
+  },
+  {
+    "text": "If you are not willing to risk the usual, you will have to settle for the ordinary.",
+    "author": "RiskReward"
+  },
+  {
+    "text": "Don't wait for the right moment to start; start and make each moment right.",
+    "author": "StartNow"
+  },
+  {
+    "text": "Perseverance is failing 19 times and succeeding the 20th.",
+    "author": "Persevere"
+  },
+  {
+    "text": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "DoubtLimit"
+  },
+  {
+    "text": "Let your dreams be bigger than your fears.",
+    "author": "DreamBig"
+  },
+  {
+    "text": "The difference between ordinary and extraordinary is that little extra.",
+    "author": "LittleExtra"
+  },
+  {
+    "text": "Don't let what you cannot do interfere with what you can do.",
+    "author": "InterfereNot"
+  },
+  { "text": "Take action now.", "author": "ActionNow" },
+  {
+    "text": "Success is not in what you have, but who you are.",
+    "author": "WhoYouAre"
+  },
+  {
+    "text": "Your big opportunity may be right where you are now.",
+    "author": "OpportunityNow"
+  },
+  {
+    "text": "Do not let what you cannot do interfere with what you can do.",
+    "author": "DoWhatYouCan"
+  },
+  {
+    "text": "Believe deep down in your heart that you're destined to do great things.",
+    "author": "DestinedGreat"
+  },
+  {
+    "text": "The secret of your success is determined by your daily agenda.",
+    "author": "DailyAgenda"
+  },
+  { "text": "Fall seven times, stand up eight.", "author": "StandUp" },
+  {
+    "text": "Set your goals high, and don't stop till you get there.",
+    "author": "GoalsHigh"
+  },
+  {
+    "text": "Failure will never overtake me if my determination to succeed is strong enough.",
+    "author": "DeterminedSuccess"
+  },
+  {
+    "text": "Accept the challenges so that you can feel the exhilaration of victory.",
+    "author": "AcceptChallenge"
+  },
+  {
+    "text": "Only those who dare to fail greatly can ever achieve greatly.",
+    "author": "DareFail"
+  },
+  {
+    "text": "Don't let yesterday use up too much of today.",
+    "author": "YesterdayUse"
+  },
+  {
+    "text": "Aim for the moon. If you miss, you may hit a star.",
+    "author": "AimHigh"
+  },
+  {
+    "text": "If you want to lift yourself up, lift up someone else.",
+    "author": "LiftOthers"
+  },
+  {
+    "text": "I never dreamed about success. I worked for it.",
+    "author": "WorkForIt"
+  },
+  {
+    "text": "Opportunities don't happen. You create them.",
+    "author": "CreateThem"
+  },
+  {
+    "text": "Don't let the fear of losing be greater than the excitement of winning.",
+    "author": "FearlessWin"
+  }
+]
